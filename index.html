@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+  </head>
+  <body>
+    <header>
+      <h1>Hotel Booking</h1>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="support.html" target="_blank">Поддержка</a>
+      </nav>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="block">
+          <img src="/img/hotel.jpg" alt="Фото гостиницы">
+        </div>
+        <div class="block">
+          <p>
+            <b> Апарт отель Семашко</b> - уникальная гостиница в сердце Гродно,
+            открывшаяся
+            в 2019 году и радушно принимающая своих постояльцев. Отель состоит
+            из двух зданий,
+            которые  построены еще в 19 веке, отреставрированы в деталях с
+            использованием
+            современных технологий и являются историко-культурной ценностью
+            города.          
+          </p>
+          <form>
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="check-in">Check-in Date:</label>
+              <input type="date" id="check-in" name="check-in" required>
+            </div>
+            <div>
+              <label for="check-out">Check-out Date:</label>
+              <input type="date" id="check-out" name="check-out" required>
+            </div>
+            <div>
+              <label for="room-type">Room Type:</label>
+              <select id="room-type" name="room-type" required>
+                <option value>Select Room Type</option>
+                <option value="single">Single Room</option>
+                <option value="double">Double Room</option>
+                <option value="suite">Suite</option>
+              </select>
+            </div>
+            <div>
+              <button type="submit">Book Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Hotel Booking. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
