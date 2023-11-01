@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Веб-чат</title>
+    <script src="./JS/app_chat.js" defer></script>
+    <link rel = "stylesheet" href="./CSS/style_chat.css">
+</head>
+<body>
+    <header>
+        <h1>Чат</h1>
+        <nav>
+          <a href="./index.html">Главная</a>
+        </nav>
+    </header>
+    <main id="chat-container">
+        <div id="input-container">
+            <input type="text" id="message-input" placeholder="Напишите сообщение...">
+            <button type="submit" onclick="sendMessage()">Отправить</button>
+        </div>
+        <div id="message-container"></div>
+    </main>
+    <footer>
+        <p>&copy; 2023. All rights reserved.</p>
+    </footer>
+</body>
+</html>
